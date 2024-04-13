@@ -1,0 +1,26 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Itim&family=Jockey+One&family=Modak&family=Potta+One&display=swap');
+
+/* Estilos */
+@import url();
+@import url();
+@import url();
+@import url();
+
+:root{
+    --azul: #08dbff;
+    --aqua: #93FFF7;
+    --añil: #145B8B;
+    --rojo: #E62829;
+    --negro: #000000;
+    --blanco: #FFFFFF;
+    --verdeClaro: #ECFCF4;
+    --azulOscuro: #0C2D3A;
+    --azulVerdoso: #209394;
+}
+
+body{
+    background-color: var(--azulVerdoso);
+    font-family: "Jockey One", sans-serif;
+    font-family: "Modak", system-ui;
+}

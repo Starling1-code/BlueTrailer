@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Itim&family=Jockey+One&family=Modak&family=Potta+One&display=swap');
 
 /* Estilos */
+@import url(./nav.css);
+@import url(./main.css);
+@import url(./login.css);
 @import url();
 @import url();
-@import url();
-@import url();
+@import url(./footer.css);
 
 :root{
     --azul: #08dbff;
@@ -14,6 +16,9 @@
     --rojo: #E62829;
     --negro: #000000;
     --blanco: #FFFFFF;
+    --text: #333;
+    --input: #eee;
+    --items: #ddd;
     --verdeClaro: #ECFCF4;
     --azulOscuro: #0C2D3A;
     --azulVerdoso: #209394;
@@ -22,5 +27,5 @@
 body{
     background-color: var(--azulVerdoso);
     font-family: "Jockey One", sans-serif;
-    font-family: "Modak", system-ui;
+    /* font-family: "Modak", system-ui; */
 }

@@ -1,0 +1,61 @@
+.movies__contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* Estilo para los elementos movies */
+.movies {
+    display: inline-block; /* Mostrar los elementos en línea */
+    width: 320px; /* Ancho de cada elemento */
+    margin-right: 20px; /* Margen derecho entre los elementos */
+    margin-bottom: 20px; /* Margen inferior entre los elementos */
+    background-color: var(--azulOscuro);
+    border-radius: 1rem;
+    box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, .25);
+    padding-block: 1rem;
+    text-transform: uppercase;
+}
+
+/* Aplicar un salto de línea después de cada cuarto elemento */
+.movies:nth-child(4n) {
+    clear: both; /* Limpiar flotantes */
+}
+
+
+.movie__img {
+    width: 100%;
+    max-width: 20rem;
+    /* border-radius: 1rem 1rem 0 0; */
+}
+
+.movie__info {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-inline: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.etiqueta__nombre {
+    font-size: 1.4rem;
+    color: var(--aqua);
+}
+
+.etiqueta {
+    color: var(--blanco);
+}
+
+
+@media screen and (min-width: 700px) {
+    .movies {
+        width: 200px;
+    }
+}
+

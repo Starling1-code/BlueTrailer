@@ -1,0 +1,49 @@
+header {
+    background-color: var(--azulOscuro);
+    padding: 10px 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__contenedor {
+    display: flex; /* Alinear elementos del logo en una fila */
+    align-items: center; /* Alinear verticalmente el contenido */
+}
+
+.nav__logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo {
+    font-family: "Modak", system-ui;
+    font-size: 30px;
+}
+
+.blue {
+    color: var(--aqua);
+}
+
+.trailer {
+    color: var(--blanco);
+} 
+
+.btn__adm{
+    background-color: var(--azul);
+    color: var(--azulOscuro);
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn__adm:hover{
+    background-color: var(--azulVerdoso);
+    color: var(--blanco);
+    cursor: pointer;
+}
+

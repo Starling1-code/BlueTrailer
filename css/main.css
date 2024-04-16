@@ -22,6 +22,11 @@
     text-transform: uppercase;
 }
 
+.movies:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 /* Aplicar un salto de línea después de cada cuarto elemento */
 .movies:nth-child(4n) {
     clear: both; /* Limpiar flotantes */

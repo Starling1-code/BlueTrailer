@@ -24,9 +24,6 @@
 
 .close_button{
     width: 2rem;
-    position: relative;
-    top: 1rem;
-    left: 56rem;
     border-radius: 50%;
     padding: 0.3rem;
     background-color: var(--rojo);
@@ -38,7 +35,7 @@
 
 .close_button .close{
     width: 12px;
-    margin-top: 6px;
+    /* margin-top: 6px; */
 }
 
 .movie_info_container{
@@ -119,4 +116,54 @@
 
 .btn_trailer img{
     width: 40px;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
+    
+    .modal_container{
+        width: 70vw;
+        height: 70vh;
+    }
+
+    .modal_container img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .movie_info_container{
+        padding: 0 0 0 50px;
+    }
+
+    .close_button{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        background-color: var(--rojo);
+        margin-top: 10px;
+        align-self: flex-end;
+        margin-right: 20px;
+    }
+
+    .close_button .close{
+        height: 20px;
+    }
+
+    .movie_info{
+        font-size: 1.5rem;
+        margin-top: 0;
+
+    }
+
+    .basics{
+        display: flex;
+    }
+
+    .btn_trailer{
+        margin-left: 3rem;
+    }
+
+    .btn_trailer img{
+        width: 40px;
+        height: 40px;
+    }
 }

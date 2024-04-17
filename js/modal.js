@@ -1,4 +1,4 @@
-document.getElementById('abrir_modal').addEventListener('click', function() {
+document.getElementById('listaMovie').addEventListener('click', function() {
     document.getElementById('modal').style.display = 'flex';
   });
   

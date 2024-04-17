@@ -64,7 +64,7 @@ a:hover{
     cursor: pointer;
 }
 
-button:hover{
+.btn_inicio_sesion:hover{
     background-color: var(--añil);
 }
 

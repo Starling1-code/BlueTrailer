@@ -1,0 +1,60 @@
+nav{
+    margin-top: .4rem;
+    margin-bottom: .5rem;
+}
+.adm_functions{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.crud_buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30rem;
+    margin-bottom: .5rem;
+}
+
+.crud_buttons button{
+    color: var(--añil);
+    background-color: var(--aqua);
+    border: none;
+    width: 7em;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    width: 30rem;
+  }
+
+  .search input{
+    width: 24rem;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .search i{
+    color: var(--aqua);
+    cursor: pointer;
+  }
+
+  .user{
+    display: flex;
+    justify-content: space-evenly;
+    width: 8%;
+    color: white;
+  }
+
+  .user i{
+    color: var(--aqua);
+  }

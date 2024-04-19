@@ -126,8 +126,8 @@
 @media only screen and (min-width: 1025px) and (max-width: 1440px){
     
     .modal_container{
-        width: 70vw;
-        height: 65vh;
+        width: 65vw;
+        height: 68vh;
     }
 
     .modal_container img{
